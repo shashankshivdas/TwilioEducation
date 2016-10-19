@@ -17,9 +17,9 @@ if($_REQUEST['Body']=='1'||$_REQUEST['Body']=='Purchase'||$_REQUEST['Body']=='pu
 		$message1="Please select one of the following options:\n";
 		$message2=" Text MO for Monitor\n";
 		$message3="Text P for Projector\n";
-		$message4=" Text M for Mobile Phone";
-		$message5=" Text C for CPU";
-		$message6=" Text W for Whole Computer";
+		$message4=" Text M for Mobile Phone\n";
+		$message5=" Text C for CPU"\n;
+		$message6=" Text W for Whole Computer\n";
 
 	    
          $message="$message1$message2$message3$message4$message5$message6";	
