@@ -30,25 +30,25 @@ if($_REQUEST['Body']=='MO'||$_REQUEST['Body']=='mo')
 
 	  $message="$message1";	
 	}
-if($_REQUEST['Body']=='P')||$_REQUEST['Body']=='p')
+if($_REQUEST['Body']=='P'||$_REQUEST['Body']=='p')
 	{        
 	$message1="Our Technician Mark would visit you in the next 24 hours with all the brochures and the best prices for the Projectors\n\n";
 
 	  $message="$message1";
 	}
-if($_REQUEST['Body']=='M')||$_REQUEST['Body']=='m')
+if($_REQUEST['Body']=='M'||$_REQUEST['Body']=='m')
 	{        
 	$message1="Our Technician Jim would visit you in the next 24 hours with all the brochures and the best prices for the Mobile Phones\n\n";
 
 	  $message="$message1";
 	}
-if($_REQUEST['Body']=='C')||$_REQUEST['Body']=='c')
+if($_REQUEST['Body']=='C'||$_REQUEST['Body']=='c')
 	{        
 	$message1="Our Technician Mike would visit you in the next 24 hours with all the brochures and the best prices for the CPUs\n\n";
 
 	  $message="$message1";
 	}
-if($_REQUEST['Body']=='W')||$_REQUEST['Body']=='w')
+if($_REQUEST['Body']=='W'||$_REQUEST['Body']=='w')
 	{        
 	$message1="Our Technician Luke would visit you in the next 24 hours with all the brochures and the best prices for the Computers\n\n";
 
@@ -72,25 +72,25 @@ if($_REQUEST['Body']=='MO'||$_REQUEST['Body']=='mo')
 
 	  $message="$message1";	
 	}
-if($_REQUEST['Body']=='P')||$_REQUEST['Body']=='p')
+if($_REQUEST['Body']=='P'||$_REQUEST['Body']=='p')
 	{        
 	$message1="Our Technician Mark would visit you in the next 48 hours to check for the issue with the Projectors\n\n";
 
 	  $message="$message1";
 	}
-if($_REQUEST['Body']=='M')||$_REQUEST['Body']=='m')
+if($_REQUEST['Body']=='M'||$_REQUEST['Body']=='m')
 	{        
 	$message1="Our Technician Jim would visit you in the next 48 hours to check for the issue with the Mobile Phones\n\n";
 
 	  $message="$message1";
 	}
-if($_REQUEST['Body']=='C')||$_REQUEST['Body']=='c')
+if($_REQUEST['Body']=='C'||$_REQUEST['Body']=='c')
 	{        
 	$message1="Our Technician Mike would visit you in the next 48 hours to check for the issue with the CPUs\n\n";
 
 	  $message="$message1";
 	}
-if($_REQUEST['Body']=='W')||$_REQUEST['Body']=='w')
+if($_REQUEST['Body']=='W'||$_REQUEST['Body']=='w')
 	{        
 	$message1="Our Technician Luke would visit you in the next 48 hours to check for the issue with the Monitors Computers\n\n";
 
