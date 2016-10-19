@@ -1,6 +1,6 @@
 <?php
 $number=$_POST['5512295527'];
-$body=$_POST['Body'];
+$Body=$_POST['Body'];
     header("content-type: text/xml");
 if($_REQUEST['Body']=='Start'||$_REQUEST['Body']=='start'||$_REQUEST['Body']=='Restart'||$_REQUEST['Body']=='restart')
 	{       $message1="Please select one of the following options using a number or the subject name\n"; 
