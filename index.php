@@ -102,7 +102,7 @@ if($_REQUEST['Body']=='W')||$_REQUEST['Body']=='w')
     <Message>
 Hello  <?php echo $number?>.
 <?php echo $message?> 
-<?php echo"\nPlease type "Start" to redo the procedure";?>	    
+<?php echo"\nPlease type Start to redo the procedure";?>	    
 
 </Message>
 </Response>
