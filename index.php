@@ -3,97 +3,97 @@ $number=$_POST['5512295527'];
 $body=$_POST['Body'];
     header("content-type: text/xml");
 if($_REQUEST['Body']=='Start'||$_REQUEST['Body']=='start'||$_REQUEST['Body']=='Restart'||$_REQUEST['Body']=='restart')
-	{       $message1="Please select one of the following options using a number\n"; 
+	{       $message1="Please select one of the following options using a number or the subject name\n"; 
 		$message2="1. Purchase\n";
 		$message3="2. Repair\n";
-			  
+		
+	  
          $message="$message1$message2$message3";	
 	}
-
-
 if($_REQUEST['Body']=='1'||$_REQUEST['Body']=='Purchase'||$_REQUEST['Body']=='purchase')
 	{        
 		$message1="Please select one of the following options:\n";
-		$message2=" Text MO for Monitor\n";
+		$message2="Text MO for Monitor\n";
 		$message3="Text P for Projector\n";
-		$message4=" Text M for Mobile Phone\n";
-		$message5=" Text C for CPU\n";
-		$message6=" Text W for Whole Computer\n";
-
+		$message4=" Text C for CPU";
+		$message5=" Text PR for Printer";
+		$message6=" Text M for Phone";
+		$message7=" Text W for Whole Computer";
 	    
-         $message="$message1$message2$message3$message4$message5$message6";	
+         $message="$message1$message2$message3$message4$message5$message6$message7";	
 	}
 if($_REQUEST['Body']=='MO'||$_REQUEST['Body']=='mo')
 	{        
-	$message1="Our Technician John would visit you in the next 24 hours with all the brochures and the best prices for the Monitors\n\n";
-
+	$message1="Our Technician John(+1 550 000 4000) will call you to get your address and will give a visit in the next 24 hours with all the brochures and the best prices for the Monitors\n\n";
+	  $message="$message1";	
+	}
+if($_REQUEST['Body']=='P'||$_REQUEST['Body']=='p')
+	{     
+	$message2="Our Technician Mark(+1 550 000 4001) will call you to get your address and will give a visit in the next 24 hours with all the brochures and the best prices for the Projectors\n\n";
+	  $message="$message2";	
+	}
+if($_REQUEST['Body']=='C'||$_REQUEST['Body']=='c')
+	{        
+$message3="Our Technician Luke(+1 550 000 4002) will call you to get your address and will give a visit in the next 24 hours with all the brochures and the best prices for the CPUs\n\n";
+	 $message="$message3";	
+	}
+if($_REQUEST['Body']=='PR'||$_REQUEST['Body']=='pr')
+	{        
+$message3="Our Technician Andy(+1 550 000 4003) will call you to get your address and will give a visit in the next 24 hours with all the brochures and the best prices for the Printers\n\n";
+	 $message="$message4";	
+	}
+if($_REQUEST['Body']=='M'||$_REQUEST['Body']=='m')
+	{        
+$message3="Our Technician Robert(+1 550 000 4004) will call you to get your address and will give a visit in the next 24 hours with all the brochures and the best prices for the phones\n\n";
+	 $message="$message5";	
+	}
+if($_REQUEST['Body']=='W'||$_REQUEST['Body']=='w')
+	{        
+$message3="Our Technician Sandy(+1 550 000 4005) will call you to get your address and will discussthe best prices for complete set of Computers\n\n";
+	 $message="$message6";	
+	}
+if($_REQUEST['Body']=='2'||$_REQUEST['Body']=='Repair'||$_REQUEST['Body']=='repair')
+	{        
+		$message1=" Please select one of the following options:\n";
+		$message2="Text MO for Monitor\n";
+		$message3="Text P for Projector\n";
+		$message4=" Text C for CPU";
+		$message5=" Text PR for Printer";
+		$message6=" Text M for Phone";
+		$message7=" Text W for Whole Computer";
+         $message="$message1$message2$message3$message4$message5$message6$message7";	
+	}
+if($_REQUEST['Body']=='MO'||$_REQUEST['Body']=='mo')
+	{        
+$message1="Our Technician John(+1 550 000 4000) will call you to get your address and will give a visit in the next 24 hours to check for the issue with the Monitor\n\n";
+	
 	  $message="$message1";	
 	}
 if($_REQUEST['Body']=='P'||$_REQUEST['Body']=='p')
 	{        
-	$message2="Our Technician Mark would visit you in the next 24 hours with all the brochures and the best prices for the Projectors\n\n";
-
-	  $message="$message2";
-	}
-if($_REQUEST['Body']=='M'||$_REQUEST['Body']=='m')
-	{        
-	$message3="Our Technician Jim would visit you in the next 24 hours with all the brochures and the best prices for the Mobile Phones\n\n";
-
-	  $message="$message3";
-	}
-if($_REQUEST['Body']=='C'||$_REQUEST['Body']=='c')
-	{        
-	$message4="Our Technician Mike would visit you in the next 24 hours with all the brochures and the best prices for the CPUs\n\n";
-
-	  $message="$message4";
-	}
-if($_REQUEST['Body']=='W'||$_REQUEST['Body']=='w')
-	{        
-	$message5="Our Technician Luke would visit you in the next 24 hours with all the brochures and the best prices for the Computers\n\n";
-
-	  $message="$message5";
-	}
-if($_REQUEST['Body']=='1'||$_REQUEST['Body']=='Repair'||$_REQUEST['Body']=='repair')
-	{        
-		$message1="Please select one of the following options:\n";
-		$message2=" Text MO for Monitor\n";
-		$message3="Text P for Projector\n";
-		$message4=" Text M for Mobile Phone";
-		$message5=" Text C for CPU";
-		$message6=" Text W for Whole Computer";
-
-	    
-         $message="$message1$message2$message3$message4$message5$message6";	
-	}
-if($_REQUEST['Body']=='MO'||$_REQUEST['Body']=='mo')
-	{        
-	$message1="Our Technician John would visit you in the next 48 hours to check for the issue with the Monitors\n\n";
-
+	$message1="Our Technician Luke(+1 550 000 4001) will call you to get your address and will give a visit in the next 24 hours to check for the issue with the Projector\n\n";
+	
 	  $message="$message1";	
 	}
-if($_REQUEST['Body']=='P'||$_REQUEST['Body']=='p')
+if($_REQUEST['Body']=='C'||$_REQUEST['Body']=='c')
 	{        
-	$message2="Our Technician Mark would visit you in the next 48 hours to check for the issue with the Projectors\n\n";
-
-	  $message="$message2";
+$message1="Our Technician Prince(+1 550 000 4002) will call you to get your address and will give a visit in the next 24 hours to check for the issue with the CPU\n\n";
+	  $message="$message1";	
+	}
+if($_REQUEST['Body']=='PR'||$_REQUEST['Body']=='pr')
+	{        
+$message1="Our Technician Robert(+1 550 000 4003) will call you to get your address and will give a visit in the next 24 hours to check for the issue with the Printer\n\n";
+	  $message="$message1";	
 	}
 if($_REQUEST['Body']=='M'||$_REQUEST['Body']=='m')
 	{        
-	$message3="Our Technician Jim would visit you in the next 48 hours to check for the issue with the Mobile Phones\n\n";
-
-	  $message="$message3";
-	}
-if($_REQUEST['Body']=='C'||$_REQUEST['Body']=='c')
-	{        
-	$message4="Our Technician Mike would visit you in the next 48 hours to check for the issue with the CPUs\n\n";
-
-	  $message="$message4";
+$message1="Our Technician Ray(+1 550 000 4004) will call you to get your address and will give a visit in the next 24 hours to check for the issue with the phone\n\n";
+	  $message="$message1";	
 	}
 if($_REQUEST['Body']=='W'||$_REQUEST['Body']=='w')
 	{        
-	$message5="Our Technician Luke would visit you in the next 48 hours to check for the issue with the Monitors Computers\n\n";
-
-	  $message="$message5";
+$message1="Our Technician Andy(+1 550 000 4005) will call you to get your address and will give a visit in the next 24 hours to check for the issue with the Computer\n\n";
+	  $message="$message1";	
 	}
 ?>
 
@@ -101,7 +101,7 @@ if($_REQUEST['Body']=='W'||$_REQUEST['Body']=='w')
     <Message>
 Hello  <?php echo $number?>.
 <?php echo $message?> 
-<?php echo"\nPlease type Start to redo the procedure";?>    
+<?php echo"\nPress start to redo the procedure";?>	    
 
 </Message>
 </Response>
