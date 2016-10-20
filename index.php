@@ -3,7 +3,7 @@ $number=$_POST['5512295527'];
 $body=$_POST['Body'];
     header("content-type: text/xml");
 if($_REQUEST['Body']=='Start'||$_REQUEST['Body']=='start'||$_REQUEST['Body']=='Restart'||$_REQUEST['Body']=='restart')
-	{       $message1="Please select one of the following options using a number or the subject name\n"; 
+	{       $message1="Please select one of the following options using a number\n"; 
 		$message2="1. Purchase\n";
 		$message3="2. Repair\n";
 		
@@ -99,7 +99,7 @@ $message1="Our Technician Andy(+1 550 000 4005) will call you to get your addres
 
 <Response>
     <Message>
-Hello  <?php echo $number?>.
+Hello<?php echo $number?>.
 <?php echo $message?> 
 <?php echo"\nPress start to redo the procedure";?>	    
 
