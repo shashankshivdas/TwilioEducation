@@ -15,10 +15,10 @@ if($_REQUEST['Body']=='1'||$_REQUEST['Body']=='Purchase'||$_REQUEST['Body']=='pu
 		$message1="Please select one of the following options:\n";
 		$message2="Text MO for Monitor\n";
 		$message3="Text P for Projector\n";
-		$message4=" Text C for CPU";
-		$message5=" Text PR for Printer";
-		$message6=" Text M for Phone";
-		$message7=" Text W for Whole Computer";
+		$message4=" Text C for CPU\n";
+		$message5=" Text PR for Printer\n";
+		$message6=" Text M for Phone\n";
+		$message7=" Text W for Whole Computer\n";
 	    
          $message="$message1$message2$message3$message4$message5$message6$message7";	
 	}
@@ -57,10 +57,10 @@ if($_REQUEST['Body']=='2'||$_REQUEST['Body']=='Repair'||$_REQUEST['Body']=='repa
 		$message1=" Please select one of the following options:\n";
 		$message2="Text MO for Monitor\n";
 		$message3="Text P for Projector\n";
-		$message4=" Text C for CPU";
-		$message5=" Text PR for Printer";
-		$message6=" Text M for Phone";
-		$message7=" Text W for Whole Computer";
+		$message4=" Text C for CPU\n";
+		$message5=" Text PR for Printer\n";
+		$message6=" Text M for Phone\n";
+		$message7=" Text W for Whole Computer\n";
          $message="$message1$message2$message3$message4$message5$message6$message7";	
 	}
 if($_REQUEST['Body']=='MO'||$_REQUEST['Body']=='mo')
