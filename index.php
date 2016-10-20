@@ -95,7 +95,7 @@ if($_REQUEST['Body']=='W'||$_REQUEST['Body']=='w')
 
 	  $message="$message5";
 	}
-
+?>
 
 <Response>
     <Message>
